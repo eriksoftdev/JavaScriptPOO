@@ -11,16 +11,6 @@
     }
 }
 
-.menu {
-display: grid;
-background-color: red;
-font-size: 1.5rem;
-}
-
-.itemMenu{
-    padding: 20px;
-    background-color: rgb(81, 81, 207);
-}
 
 h2 {
     text-align: center;

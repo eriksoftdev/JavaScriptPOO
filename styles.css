@@ -1,0 +1,53 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    height:100vh;
+}
+
+@media screen and (max-width: 768px){
+    .container {
+        grid-template-columns: 1fr;
+    }
+}
+
+.menu {
+display: grid;
+background-color: red;
+font-size: 1.5rem;
+}
+
+.itemMenu{
+    padding: 20px;
+    background-color: rgb(81, 81, 207);
+}
+
+h2 {
+    text-align: center;
+}
+#movements{
+    padding: 20px;
+    color: white;
+    background-color: black;
+}
+
+.card {
+text-align: center;
+color: white;
+font-size: 1.5rem;
+font-weight: 400;
+background-color: rgb(0, 0, 0);
+padding: 20px;
+border-radius: 10px;
+}
+
+.card img {
+height: 400px;
+}
+
+.card button {
+    margin-top: 10px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
